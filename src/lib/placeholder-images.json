@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "Stylish person wearing Kentekrown apparel with vibrant patterns, looking confidently at the camera in an urban setting.",
+      "imageUrl": "https://picsum.photos/seed/krown-hero/1800/1000",
+      "imageHint": "african fashion"
+    },
+    {
+      "id": "story-1",
+      "description": "Close-up of a traditional Kente cloth being woven on a loom by an artisan.",
+      "imageUrl": "https://picsum.photos/seed/krown-story/600/700",
+      "imageHint": "kente cloth"
+    },
+    {
+      "id": "prod-hoodie-1",
+      "description": "Front view of the 'Adinkra' hoodie in black, showing the gold Kente pattern on the chest.",
+      "imageUrl": "https://picsum.photos/seed/krown-hoodie1/800/1000",
+      "imageHint": "kente hoodie"
+    },
+    {
+      "id": "prod-hoodie-2",
+      "description": "Side view of a person wearing the 'Adinkra' hoodie, highlighting the sleeve details.",
+      "imageUrl": "https://picsum.photos/seed/krown-hoodie2/800/1000",
+      "imageHint": "fashion model"
+    },
+    {
+      "id": "prod-tshirt-1",
+      "description": "The 'Sankofa' Heritage T-Shirt in white, laid flat to show the detailed crimson and green chest emblem.",
+      "imageUrl": "https://picsum.photos/seed/krown-tshirt1/800/1000",
+      "imageHint": "graphic tee"
+    },
+    {
+      "id": "prod-tshirt-2",
+      "description": "A person wearing the 'Sankofa' Heritage T-Shirt, styled with jeans.",
+      "imageUrl": "https://picsum.photos/seed/krown-tshirt2/800/1000",
+      "imageHint": "street style"
+    },
+    {
+      "id": "prod-cap-1",
+      "description": "Front view of the 'Gye Nyame' Snapback in burnt orange with a black embroidered symbol.",
+      "imageUrl": "https://picsum.photos/seed/krown-cap1/800/1000",
+      "imageHint": "snapback cap"
+    },
+    {
+      "id": "prod-cap-2",
+      "description": "Side profile of someone wearing the 'Gye Nyame' Snapback.",
+      "imageUrl": "https://picsum.photos/seed/krown-cap2/800/1000",
+      "imageHint": "headwear fashion"
+    },
+    {
+      "id": "prod-bomber-1",
+      "description": "The 'Asase Ye Duru' Bomber Jacket on a mannequin, showcasing its deep green color and gold patterns.",
+      "imageUrl": "https://picsum.photos/seed/krown-bomber1/800/1000",
+      "imageHint": "bomber jacket"
+    },
+    {
+      "id": "prod-bomber-2",
+      "description": "A person in an urban environment wearing the 'Asase Ye Duru' Bomber Jacket.",
+      "imageUrl": "https://picsum.photos/seed/krown-bomber2/800/1000",
+      "imageHint": "urban fashion"
+    },
+    {
+      "id": "prod-tote-1",
+      "description": "The 'Fihankra' Unity Tote Bag, showing the pattern and sturdy straps.",
+      "imageUrl": "https://picsum.photos/seed/krown-tote1/800/1000",
+      "imageHint": "tote bag"
+    },
+    {
+      "id": "prod-tote-2",
+      "description": "Someone carrying the 'Fihankra' Unity Tote Bag at a market.",
+      "imageUrl": "https://picsum.photos/seed/krown-tote2/800/1000",
+      "imageHint": "lifestyle accessory"
+    }
+  ]
 }
