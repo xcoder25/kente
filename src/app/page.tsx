@@ -19,7 +19,7 @@ export default function Home() {
     <div className="flex flex-col w-full overflow-x-hidden">
 
       {/* ── HERO SECTION ─────────────────────────────────────────── */}
-      <section className="relative min-h-[90vh] md:h-screen w-full flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[65vh] sm:min-h-[85vh] md:h-[95vh] w-full flex items-center justify-center overflow-hidden">
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
@@ -50,7 +50,7 @@ export default function Home() {
             <Crown className="h-4 w-4 text-primary" />
           </div>
 
-          <h1 className="font-headline text-5xl sm:text-7xl md:text-8xl lg:text-[140px] tracking-tighter leading-[0.85] animate-fade-up animation-delay-200 drop-shadow-2xl">
+          <h1 className="font-headline text-5xl sm:text-7xl md:text-8xl lg:text-[130px] tracking-tighter leading-[0.85] animate-fade-up animation-delay-200 drop-shadow-2xl mt-4 sm:mt-0">
             <span className="text-white relative inline-block">
               Royal
               <div className="absolute -left-6 -top-4 opacity-50"><Sparkles className="h-8 w-8 text-primary" /></div>
@@ -126,7 +126,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
             
             {/* Image side */}
-            <div className="relative group order-2 lg:order-1 h-[600px] w-full rounded-2xl overflow-hidden shadow-2xl shadow-primary/5">
+            <div className="relative group order-2 lg:order-1 h-[350px] sm:h-[450px] lg:h-[600px] w-full rounded-2xl overflow-hidden shadow-2xl shadow-primary/5">
               {storyImage && (
                 <>
                   <Image
