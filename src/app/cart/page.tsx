@@ -36,7 +36,9 @@ export default function CartPage() {
         <div className="md:col-span-2">
           <div className="space-y-6">
             {cart.map(item => {
-              const image = PlaceHolderImages.find(p => p.id === item.images[0]);
+              const image = item.images[0]?.startsWith('http') 
+                ? { imageUrl: item.images[0], imageHint: 'external image' } 
+                : PlaceHolderImages.find(p => p.id === item.images[0]);
               return (
                 <Card key={item.id} className="flex items-center p-4">
                   <div className="w-24 h-24 relative mr-4">

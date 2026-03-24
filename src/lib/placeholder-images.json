@@ -2,183 +2,183 @@
   "placeholderImages": [
     {
       "id": "hero-1",
-      "description": "Stylish person wearing Kentekrown apparel with vibrant Kente patterns, looking confidently at the camera in an urban setting.",
-      "imageUrl": "https://picsum.photos/seed/krown-hero/1800/1000",
+      "description": "Stylish person wearing Kentekrown apparel with vibrant patterns, looking confidently.",
+      "imageUrl": "https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&auto=format&fit=crop&w=1800&q=80",
       "imageHint": "african fashion"
     },
     {
       "id": "story-1",
-      "description": "Close-up of a traditional Kente cloth being woven on a loom by an artisan.",
-      "imageUrl": "https://picsum.photos/seed/krown-story/600/700",
+      "description": "Background showing rich cultural heritage representing the woven lineage.",
+      "imageUrl": "https://images.unsplash.com/photo-1585863266946-bd69931fc484?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "imageHint": "kente cloth artisan"
     },
     {
       "id": "prod-hoodie-1",
-      "description": "Front view of the Adinkra Royalty hoodie in black, showing the gold Kente pattern on the chest.",
-      "imageUrl": "https://picsum.photos/seed/krown-hoodie1/800/1000",
-      "imageHint": "kente hoodie black"
+      "description": "Front view of the Adinkra Royalty hoodie in black.",
+      "imageUrl": "https://images.unsplash.com/photo-1563148187-578dfbafebe6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "black hoodie portrait"
     },
     {
       "id": "prod-hoodie-2",
-      "description": "Side view of a person wearing the Adinkra Royalty hoodie, highlighting the sleeve details.",
-      "imageUrl": "https://picsum.photos/seed/krown-hoodie2/800/1000",
+      "description": "Side view of a person wearing the Adinkra Royalty hoodie.",
+      "imageUrl": "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "imageHint": "fashion model hoodie"
     },
     {
       "id": "prod-hoodie-3",
-      "description": "Front view of the Osrane Ne Nsoromma oversized navy hoodie with gold Kente sleeve panels.",
-      "imageUrl": "https://picsum.photos/seed/krown-hoodie3/800/1000",
-      "imageHint": "navy oversized hoodie kente"
+      "description": "Front view of the Osrane Ne Nsoromma oversized navy hoodie.",
+      "imageUrl": "https://images.unsplash.com/photo-1509319117193-57bab727e09d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "oversized hoodie person"
     },
     {
       "id": "prod-hoodie-4",
-      "description": "Person wearing the Osrane Ne Nsoromma oversized hoodie in a night-time city setting.",
-      "imageUrl": "https://picsum.photos/seed/krown-hoodie4/800/1000",
+      "description": "Person wearing oversized hoodie in city setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1503342394128-c104d54dba01?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "imageHint": "street fashion night"
     },
     {
       "id": "prod-tshirt-1",
-      "description": "The Sankofa Heritage T-Shirt in white, laid flat to show the detailed crimson and green chest emblem.",
-      "imageUrl": "https://picsum.photos/seed/krown-tshirt1/800/1000",
-      "imageHint": "graphic tee flat lay"
+      "description": "Sankofa Heritage T-Shirt in white.",
+      "imageUrl": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "white graphic tee flat lay"
     },
     {
       "id": "prod-tshirt-2",
-      "description": "A person wearing the Sankofa Heritage T-Shirt, styled with jeans.",
-      "imageUrl": "https://picsum.photos/seed/krown-tshirt2/800/1000",
-      "imageHint": "street style tee"
+      "description": "A person wearing the Sankofa Heritage T-Shirt.",
+      "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "tshirt fashion street male"
     },
     {
       "id": "prod-tshirt-3",
-      "description": "The Duafe Empowerment Graphic Tee in off-white with earth-tone Adinkra motif flat lay.",
-      "imageUrl": "https://picsum.photos/seed/krown-tshirt3/800/1000",
-      "imageHint": "graphic tee earth tones"
+      "description": "The Duafe Empowerment Graphic Tee.",
+      "imageUrl": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "graphic tee mockup"
     },
     {
       "id": "prod-tshirt-4",
-      "description": "Woman wearing the Duafe Empowerment Graphic Tee styled with wide-leg trousers.",
-      "imageUrl": "https://picsum.photos/seed/krown-tshirt4/800/1000",
-      "imageHint": "women fashion street"
+      "description": "Woman wearing the Duafe Empowerment Graphic Tee.",
+      "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "women fashion tee"
     },
     {
       "id": "prod-cap-1",
-      "description": "Front view of the Gye Nyame Snapback in burnt orange with a black embroidered symbol.",
-      "imageUrl": "https://picsum.photos/seed/krown-cap1/800/1000",
-      "imageHint": "snapback cap orange"
+      "description": "Front view of the Gye Nyame Snapback.",
+      "imageUrl": "https://images.unsplash.com/photo-1545127029-79a0effabce1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "snapback cap fashion"
     },
     {
       "id": "prod-cap-2",
       "description": "Side profile of someone wearing the Gye Nyame Snapback.",
-      "imageUrl": "https://picsum.photos/seed/krown-cap2/800/1000",
-      "imageHint": "headwear fashion"
+      "imageUrl": "https://images.unsplash.com/photo-1603099905251-ba80ca1ed73e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "streetwear headwear"
     },
     {
       "id": "prod-bomber-1",
-      "description": "The Asase Ye Duru Bomber Jacket on a mannequin, showcasing its deep green color and gold patterns.",
-      "imageUrl": "https://picsum.photos/seed/krown-bomber1/800/1000",
+      "description": "The Asase Ye Duru Bomber Jacket.",
+      "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "imageHint": "bomber jacket green gold"
     },
     {
       "id": "prod-bomber-2",
-      "description": "A person in an urban environment wearing the Asase Ye Duru Bomber Jacket.",
-      "imageUrl": "https://picsum.photos/seed/krown-bomber2/800/1000",
-      "imageHint": "urban fashion jacket"
+      "description": "A person in an urban environment wearing a Bomber Jacket.",
+      "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "urban fashion jacket style"
     },
     {
       "id": "prod-jacket-1",
-      "description": "The Aya Resilience Windbreaker in black with visible Kente-lined interior.",
-      "imageUrl": "https://picsum.photos/seed/krown-windbreak1/800/1000",
-      "imageHint": "windbreaker jacket kente"
+      "description": "The Aya Resilience Windbreaker.",
+      "imageUrl": "https://images.unsplash.com/photo-1548883354-94bcfe321cbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "windbreaker zip"
     },
     {
       "id": "prod-jacket-2",
-      "description": "Person wearing the Aya Windbreaker open, revealing the vibrant Kente lining.",
-      "imageUrl": "https://picsum.photos/seed/krown-windbreak2/800/1000",
-      "imageHint": "jacket lining pattern"
+      "description": "Person wearing the Aya Windbreaker.",
+      "imageUrl": "https://images.unsplash.com/photo-1606132849886-efae241372b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "jacket street casual"
     },
     {
       "id": "prod-tote-1",
-      "description": "The Fihankra Unity Tote Bag, showing the pattern and sturdy straps.",
-      "imageUrl": "https://picsum.photos/seed/krown-tote1/800/1000",
-      "imageHint": "tote bag kente"
+      "description": "The Fihankra Unity Tote Bag.",
+      "imageUrl": "https://images.unsplash.com/photo-1544816155-12df9643f363?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "tote bag flat"
     },
     {
       "id": "prod-tote-2",
-      "description": "Someone carrying the Fihankra Unity Tote Bag at a market.",
-      "imageUrl": "https://picsum.photos/seed/krown-tote2/800/1000",
-      "imageHint": "lifestyle accessory tote"
+      "description": "Someone carrying the Tote Bag at a market.",
+      "imageUrl": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "lifestyle tote bag fashion"
     },
     {
       "id": "prod-jogger-1",
-      "description": "The Akoma Heritage Joggers in charcoal grey with gold Kente side stripe, flat lay.",
-      "imageUrl": "https://picsum.photos/seed/krown-jogger1/800/1000",
-      "imageHint": "joggers streetwear charcoal"
+      "description": "The Akoma Heritage Joggers.",
+      "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "sweatpants jogger flat lay"
     },
     {
       "id": "prod-jogger-2",
-      "description": "Person wearing the Akoma Heritage Joggers with Kente stripe sneakers.",
-      "imageUrl": "https://picsum.photos/seed/krown-jogger2/800/1000",
-      "imageHint": "streetwear joggers model"
+      "description": "Person wearing the Akoma Heritage Joggers.",
+      "imageUrl": "https://images.unsplash.com/photo-1616053805908-1ccabaaac08f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "joggers full body street"
     },
     {
       "id": "prod-jogger-3",
-      "description": "The Nkyinkyim Adaptability Joggers in deep burgundy with Adinkra all-over print, flat lay.",
-      "imageUrl": "https://picsum.photos/seed/krown-jogger3/800/1000",
-      "imageHint": "joggers burgundy adinkra"
+      "description": "The Nkyinkyim Adaptability Joggers.",
+      "imageUrl": "https://images.unsplash.com/photo-1510419350438-e6fd8b76ce8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "burgundy joggers active"
     },
     {
       "id": "prod-jogger-4",
-      "description": "Person in motion wearing the Nkyinkyim Joggers, gym-to-street look.",
-      "imageUrl": "https://picsum.photos/seed/krown-jogger4/800/1000",
-      "imageHint": "active fashion streetwear"
+      "description": "Person in motion wearing the Nkyinkyim Joggers.",
+      "imageUrl": "https://images.unsplash.com/photo-1490262192667-0c6aebff1d95?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "gym fashion action"
     },
     {
       "id": "prod-track-1",
-      "description": "The Nea Ama Royal Tracksuit in midnight black with gold Kente stripe, full look.",
-      "imageUrl": "https://picsum.photos/seed/krown-tracksuit1/800/1000",
-      "imageHint": "tracksuit black gold"
+      "description": "The Nea Ama Royal Tracksuit.",
+      "imageUrl": "https://images.unsplash.com/photo-1605034313761-73ea4a0cfbf3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "black tracksuit gold detailing"
     },
     {
       "id": "prod-track-2",
-      "description": "Close-up of the Nea Ama Tracksuit Kente gold stripe detail on the leg.",
-      "imageUrl": "https://picsum.photos/seed/krown-tracksuit2/800/1000",
-      "imageHint": "kente stripe detail tracksuit"
+      "description": "Close-up of the Nea Ama Tracksuit.",
+      "imageUrl": "https://images.unsplash.com/photo-1582239460029-4560d23f38ec?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "fabric detail tracksuit"
     },
     {
       "id": "prod-bracelet-1",
-      "description": "Bese Saka beaded bracelet with gold, green, red, and black glass beads on a dark surface.",
-      "imageUrl": "https://picsum.photos/seed/krown-bracelet1/800/1000",
-      "imageHint": "beaded bracelet african"
+      "description": "Bese Saka beaded bracelet.",
+      "imageUrl": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "african bead bracelet"
     },
     {
       "id": "prod-bracelet-2",
       "description": "Person wearing the Bese Saka bracelet on their wrist.",
-      "imageUrl": "https://picsum.photos/seed/krown-bracelet2/800/1000",
-      "imageHint": "bracelet wrist accessory"
+      "imageUrl": "https://images.unsplash.com/photo-1576023253272-9cb77e562da7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "wrist custom bracelet"
     },
     {
       "id": "prod-kente-cap-1",
-      "description": "The Hand-Woven Kente Crown Cap showing the authentic woven Kente strips in gold, green, and red.",
-      "imageUrl": "https://picsum.photos/seed/krown-kentecap1/800/1000",
-      "imageHint": "kente woven cap bucket hat"
+      "description": "The Hand-Woven Kente Crown Cap.",
+      "imageUrl": "https://images.unsplash.com/photo-1521369909029-282697ff97bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "bucket hat fashion"
     },
     {
       "id": "prod-kente-cap-2",
-      "description": "Person wearing the Kente Crown Cap at a cultural event.",
-      "imageUrl": "https://picsum.photos/seed/krown-kentecap2/800/1000",
-      "imageHint": "kente hat cultural fashion"
+      "description": "Person wearing the Kente Crown Cap.",
+      "imageUrl": "https://images.unsplash.com/photo-1558238714-257a3eac4ea3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "headwear street cool"
     },
     {
       "id": "prod-sweat-1",
-      "description": "The Abusua Family Crewneck Sweatshirt in terracotta with clan graphic flat lay.",
-      "imageUrl": "https://picsum.photos/seed/krown-sweat1/800/1000",
-      "imageHint": "crewneck sweatshirt terracotta"
+      "description": "The Abusua Family Crewneck Sweatshirt.",
+      "imageUrl": "https://images.unsplash.com/photo-1554568218-0f1715e72254?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "crewneck plain sweatshirt"
     },
     {
       "id": "prod-sweat-2",
-      "description": "Person wearing the Abusua Crewneck loosely with relaxed trousers, street style.",
-      "imageUrl": "https://picsum.photos/seed/krown-sweat2/800/1000",
-      "imageHint": "street fashion sweatshirt"
+      "description": "Person wearing the Abusua Crewneck.",
+      "imageUrl": "https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "imageHint": "casual style fashion men"
     }
   ]
 }

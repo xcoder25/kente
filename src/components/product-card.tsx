@@ -22,11 +22,14 @@ export function ProductCard({ product }: { product: Product }) {
   const { addToCart } = useCart();
   const { toast } = useToast();
   const [wished, setWished] = useState(false);
-  const firstImage = PlaceHolderImages.find((p) => p.id === product.images[0]);
-  const secondImage =
-    product.images.length > 1
-      ? PlaceHolderImages.find((p) => p.id === product.images[1])
-      : firstImage;
+  const getImgInfo = (idOrUrl?: string) => {
+    if (!idOrUrl) return undefined;
+    if (idOrUrl.startsWith('http')) return { imageUrl: idOrUrl, imageHint: 'external product' };
+    return PlaceHolderImages.find((p) => p.id === idOrUrl);
+  };
+
+  const firstImage = getImgInfo(product.images[0]);
+  const secondImage = product.images.length > 1 ? getImgInfo(product.images[1]) : firstImage;
 
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -114,43 +117,43 @@ export function ProductCard({ product }: { product: Product }) {
       </Link>
 
       {/* Info Area */}
-      <div className="flex flex-col flex-1 p-4">
+      <div className="flex flex-col flex-1 p-2 sm:p-4">
         <Link href={`/products/${product.id}`} className="block">
-          <p className="text-[11px] font-medium text-primary/70 tracking-widest uppercase mb-1">{product.category}</p>
-          <h3 className="font-headline text-base font-semibold leading-snug text-foreground group-hover:text-primary transition-colors duration-200 line-clamp-2">
+          <p className="text-[9px] sm:text-[11px] font-medium text-primary/70 tracking-widest uppercase mb-0.5 sm:mb-1">{product.category}</p>
+          <h3 className="font-headline text-sm sm:text-base font-semibold leading-snug text-foreground group-hover:text-primary transition-colors duration-200 line-clamp-2">
             {product.name}
           </h3>
         </Link>
 
         {/* Rating */}
         {product.rating && (
-          <div className="flex items-center gap-1.5 mt-2">
+          <div className="flex items-center gap-1 sm:gap-1.5 mt-1 sm:mt-2">
             <div className="flex">
               {[...Array(5)].map((_, i) => (
                 <Star
                   key={i}
-                  className={`h-3 w-3 ${i < Math.floor(product.rating!) ? 'fill-primary text-primary' : 'fill-muted text-muted'}`}
+                  className={`h-2.5 w-2.5 sm:h-3 sm:w-3 ${i < Math.floor(product.rating!) ? 'fill-primary text-primary' : 'fill-muted text-muted'}`}
                 />
               ))}
             </div>
-            <span className="text-[11px] text-muted-foreground">({product.reviewCount})</span>
+            <span className="text-[9px] sm:text-[11px] text-muted-foreground">({product.reviewCount})</span>
           </div>
         )}
 
-        <div className="flex items-center justify-between mt-4 pt-3 border-t border-border/50">
+        <div className="flex items-center justify-between mt-2.5 sm:mt-4 pt-2.5 sm:pt-3 border-t border-border/50">
           <div>
-            <p className="text-lg font-bold text-primary font-headline leading-none">{formatNGN(product.price)}</p>
+            <p className="text-sm sm:text-lg font-bold text-primary font-headline leading-none">{formatNGN(product.price)}</p>
             {hasDiscount && (
-              <p className="text-xs text-muted-foreground line-through mt-0.5">{formatNGN(product.originalPrice!)}</p>
+              <p className="text-[10px] sm:text-xs text-muted-foreground line-through mt-0.5">{formatNGN(product.originalPrice!)}</p>
             )}
           </div>
           <Button
             size="sm"
             onClick={handleAddToCart}
-            className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-4 py-2 text-xs font-semibold shadow-md shadow-primary/20 hover:shadow-primary/40 transition-all duration-200 hover:scale-105"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-2.5 py-1.5 sm:px-4 sm:py-2 text-[10px] sm:text-xs font-semibold shadow-md shadow-primary/20 hover:shadow-primary/40 transition-all duration-200 hover:scale-105 h-auto"
           >
-            <ShoppingCart className="mr-1.5 h-3.5 w-3.5" />
-            Add
+            <ShoppingCart className="mr-1 sm:mr-1.5 h-3 w-3 sm:h-3.5 sm:w-3.5" />
+            <span className="hidden sm:inline">Add</span>
           </Button>
         </div>
       </div>

@@ -56,7 +56,10 @@ export default function ProductDetailPage({ params }: { params: Promise<{ id: st
     });
   };
 
-  const productImages = product.images.map(id => PlaceHolderImages.find(p => p.id === id)).filter(Boolean);
+  const productImages = product.images.map(idOrUrl => {
+    if (idOrUrl.startsWith('http')) return { imageUrl: idOrUrl, imageHint: 'external product image' };
+    return PlaceHolderImages.find(p => p.id === idOrUrl);
+  }).filter(Boolean);
   const hasDiscount = product.originalPrice && product.originalPrice > product.price;
 
   return (

@@ -1,16 +1,15 @@
 'use client';
 
-import { useState, useRef } from 'react';
+import { useRef } from 'react';
+import { useRouter } from 'next/navigation';
 import { Logo } from '@/components/logo';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { Instagram, Twitter, Facebook, Youtube } from 'lucide-react';
-import { AdminPanel } from '@/components/admin/admin-panel';
-import { products } from '@/lib/products';
 
 export function Footer() {
-  const [isAdminOpen, setIsAdminOpen] = useState(false);
+  const router = useRouter();
   const clickCount = useRef(0);
   const clickTimeout = useRef<NodeJS.Timeout | null>(null);
 
@@ -22,7 +21,7 @@ export function Footer() {
     }
 
     if (clickCount.current >= 4) {
-      setIsAdminOpen(true);
+      router.push('/admin');
       clickCount.current = 0;
     } else {
       clickTimeout.current = setTimeout(() => {
@@ -32,7 +31,6 @@ export function Footer() {
   };
 
   return (
-    <>
     <footer className="relative border-t border-primary/15 bg-card overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none">
@@ -150,13 +148,5 @@ export function Footer() {
         </div>
       </div>
     </footer>
-    {isAdminOpen && (
-      <AdminPanel 
-        products={products} 
-        isOpen={isAdminOpen} 
-        onClose={() => setIsAdminOpen(false)} 
-      />
-    )}
-    </>
   );
 }
