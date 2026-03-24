@@ -8,11 +8,12 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/componen
 import { Separator } from '@/components/ui/separator';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Trash2, ShoppingBag } from 'lucide-react';
+import { formatNGN } from '@/lib/products';
 
 export default function CartPage() {
   const { cart, updateQuantity, removeFromCart } = useCart();
   const subtotal = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
-  const shipping = 5.00;
+  const shipping = subtotal > 150000 ? 0 : 5000;
   const total = subtotal + shipping;
 
   if (cart.length === 0) {
@@ -51,7 +52,7 @@ export default function CartPage() {
                   </div>
                   <div className="flex-grow">
                     <Link href={`/products/${item.id}`} className="font-headline text-lg hover:text-primary">{item.name}</Link>
-                    <p className="text-sm text-muted-foreground">Price: ${item.price.toFixed(2)}</p>
+                    <p className="text-sm text-muted-foreground">Price: {formatNGN(item.price)}</p>
                   </div>
                   <div className="flex items-center gap-4">
                     <Input
@@ -66,7 +67,7 @@ export default function CartPage() {
                     </Button>
                   </div>
                   <div className="w-24 text-right font-bold">
-                    ${(item.price * item.quantity).toFixed(2)}
+                    {formatNGN(item.price * item.quantity)}
                   </div>
                 </Card>
               );
@@ -82,16 +83,16 @@ export default function CartPage() {
             <CardContent className="space-y-4">
               <div className="flex justify-between">
                 <span>Subtotal</span>
-                <span>${subtotal.toFixed(2)}</span>
+                <span>{formatNGN(subtotal)}</span>
               </div>
               <div className="flex justify-between">
                 <span>Shipping</span>
-                <span>${shipping.toFixed(2)}</span>
+                <span>{shipping === 0 ? 'Free' : formatNGN(shipping)}</span>
               </div>
               <Separator />
               <div className="flex justify-between font-bold text-lg">
                 <span>Total</span>
-                <span>${total.toFixed(2)}</span>
+                <span>{formatNGN(total)}</span>
               </div>
             </CardContent>
             <CardFooter>

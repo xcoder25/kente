@@ -37,7 +37,7 @@ export default function AccountPage() {
                     <p className="text-sm text-muted-foreground">Status: Shipped</p>
                   </div>
                   <div className="text-left sm:text-right mt-2 sm:mt-0">
-                    <p className="font-bold">$129.98</p>
+                    <p className="font-bold">₦129,900</p>
                     <Button variant="outline" size="sm" className="mt-2">View Details</Button>
                   </div>
                 </div>
@@ -48,7 +48,7 @@ export default function AccountPage() {
                     <p className="text-sm text-muted-foreground">Status: Delivered</p>
                   </div>
                   <div className="text-left sm:text-right mt-2 sm:mt-0">
-                    <p className="font-bold">$89.99</p>
+                    <p className="font-bold">₦89,900</p>
                     <Button variant="outline" size="sm" className="mt-2">View Details</Button>
                   </div>
                 </div>
