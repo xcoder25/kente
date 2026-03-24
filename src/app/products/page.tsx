@@ -84,26 +84,28 @@ export default function ProductsPage() {
           <main className="lg:col-span-3">
             
             {/* Toolbar */}
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-8 bg-secondary/20 p-4 rounded-2xl border border-primary/10">
-              <p className="text-sm text-muted-foreground font-medium">
+            <div className="flex flex-col sm:flex-row justify-between items-center gap-3 mb-8 bg-secondary/20 p-3 sm:p-4 rounded-xl border border-primary/10">
+              <p className="text-xs sm:text-sm text-muted-foreground font-medium w-full text-center sm:text-left sm:w-auto">
                 Showing <strong className="text-foreground">{products.length}</strong> Results
               </p>
               
-              {/* Mobile Filter Toggle */}
-              <button className="lg:hidden flex items-center gap-2 px-4 py-2 border border-primary/20 rounded-lg text-sm font-medium">
-                <SlidersHorizontal className="h-4 w-4 text-primary" /> Filters
-              </button>
-
-              <div className="flex items-center gap-3">
-                <span className="text-sm text-muted-foreground hidden sm:block">Sort by:</span>
-                <button className="flex items-center gap-2 px-4 py-2 bg-background border border-primary/20 hover:border-primary/50 transition-colors rounded-lg text-sm font-medium">
-                  Featured <ArrowDownAZ className="h-4 w-4 text-primary" />
+              <div className="flex gap-2 w-full sm:w-auto">
+                {/* Mobile Filter Toggle */}
+                <button className="lg:hidden flex-1 flex items-center justify-center gap-2 px-3 py-2 border border-primary/20 rounded-lg text-xs sm:text-sm font-medium bg-background">
+                  <SlidersHorizontal className="h-3.5 w-3.5 text-primary" /> Filters
                 </button>
+
+                <div className="flex items-center gap-3 flex-1 sm:flex-initial">
+                  <span className="text-sm text-muted-foreground hidden sm:block">Sort by:</span>
+                  <button className="flex-1 flex items-center justify-center gap-2 px-3 py-2 bg-background border border-primary/20 hover:border-primary/50 transition-colors rounded-lg text-xs sm:text-sm font-medium">
+                    Featured <ArrowDownAZ className="h-3.5 w-3.5 text-primary" />
+                  </button>
+                </div>
               </div>
             </div>
 
             {/* Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
+            <div className="grid grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-6 md:gap-8">
               {products.map((product) => (
                 <ProductCard key={product.id} product={product} />
               ))}
