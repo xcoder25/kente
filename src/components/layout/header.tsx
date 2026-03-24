@@ -53,37 +53,44 @@ export function Header() {
                   <span className="sr-only">Open menu</span>
                 </Button>
               </SheetTrigger>
-              <SheetContent side="left" className="bg-background/95 backdrop-blur-xl border-r border-primary/20 w-72">
+              <SheetContent side="left" className="bg-background/95 backdrop-blur-3xl border-r border-primary/20 w-[85vw] max-w-[400px] sm:w-[400px] p-0 flex flex-col">
                 <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
-                <div className="p-6">
-                  <div className="flex items-center justify-between mb-8">
+                <div className="flex-1 overflow-y-auto px-8 py-16 flex flex-col h-full">
+                  <div className="mb-16 scale-110 origin-left">
                     <Logo />
-                    <Button
-                      variant="ghost"
-                      size="icon"
-                      onClick={() => setMobileOpen(false)}
-                      className="text-muted-foreground hover:text-primary"
-                    >
-                      <X className="h-5 w-5" />
-                    </Button>
                   </div>
-                  {/* Kente divider */}
-                  <div className="kente-strip rounded-full mb-8" />
-                  <nav className="flex flex-col space-y-1">
-                    {navLinks.map(({ href, label }) => (
+                  
+                  <nav className="flex flex-col space-y-8">
+                    {navLinks.map(({ href, label }, i) => (
                       <Link
                         key={href}
                         href={href}
                         onClick={() => setMobileOpen(false)}
-                        className="group flex items-center gap-3 px-4 py-3 rounded-lg text-base font-medium text-foreground/70 hover:text-primary hover:bg-primary/10 transition-all duration-200"
+                        className="text-4xl font-headline tracking-wider text-foreground/80 hover:text-primary transition-all duration-500 flex items-center group"
                       >
-                        <span className="h-0.5 w-0 bg-primary transition-all duration-300 group-hover:w-4" />
+                        <span className="h-0.5 w-0 bg-primary mr-0 transition-all duration-500 group-hover:w-8 group-hover:mr-6" />
                         {label}
+                        <span className="ml-auto opacity-0 -translate-x-4 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0">
+                          <span className="text-primary text-xl">→</span>
+                        </span>
                       </Link>
                     ))}
                   </nav>
-                  <div className="mt-8 pt-8 border-t border-border/50">
-                    <p className="text-xs text-muted-foreground tracking-widest uppercase">Wear Your Heritage</p>
+
+                  <div className="mt-auto pt-16">
+                    <div className="kente-strip w-full h-[3px] mb-8 opacity-60" />
+                    <p className="text-[10px] font-bold tracking-[0.3em] uppercase text-primary mb-6">Connect With The Crown</p>
+                    <div className="flex gap-6">
+                      {['Instagram', 'Twitter', 'TikTok'].map(social => (
+                        <Link 
+                          key={social} 
+                          href="#" 
+                          className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+                        >
+                          {social}
+                        </Link>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </SheetContent>
